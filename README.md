@@ -1,2 +1,10 @@
-# big_data_tools
-This repository has a docker-compose files that configure the tools used in the big data class from Uni7 postgraduate program
+# Basic Usage
+
+Just run:
+- docker-compose up
+
+If you want to access the mongodb shell:
+- docker exec -it {container_name} /bin/sh
+- mongo
+
+
